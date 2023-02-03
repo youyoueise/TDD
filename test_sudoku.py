@@ -1,5 +1,5 @@
 import unittest
-from check_sudoku import *
+from fonction_sudoku import *
 
 class testSudoku(unittest.TestCase):
     def test_sudoku(self):
@@ -35,9 +35,9 @@ class testSudoku(unittest.TestCase):
         [6,9,1,8,2,3,5,4,7]
         ]
 
-        self.assertEqual(isSudoku(grid_1),False)
-        self.assertEqual(isSudoku(grid_2),True)
-        self.assertEqual(isSudoku(grid_3),True)
+        self.assertEqual(check_sudoku(grid_1),False)
+        self.assertEqual(check_sudoku(grid_2),True)
+        self.assertEqual(check_sudoku(grid_3),True)
 
 
 
