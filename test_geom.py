@@ -1,8 +1,8 @@
 import unittest
 from fonction_geom import *
 
-class testArith(unittest.TestCase):
-    def test_arith(self):
+class testGeom(unittest.TestCase):
+    def test_geom(self):
         self.assertEqual(isGeom([]),False)
         self.assertEqual(isGeom([3]),False)
         self.assertEqual(isGeom([2,4,8]),True)
