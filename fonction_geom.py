@@ -1,0 +1,2 @@
+def isGeom(liste):
+    pass
